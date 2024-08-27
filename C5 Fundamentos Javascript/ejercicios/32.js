@@ -1,6 +1,7 @@
 // ⛔️ Recuerda que debes utilizar el objeto global "Math".
 
 function elevarAlCubo(num) {
+  return Math.pow(num, 3);
   // La función recibe un argumento llamado num el cual es un numero.
   // Debes Retorna el valor de "num" elevado al cubo.
   // Por ejemplo: 
@@ -8,5 +9,9 @@ function elevarAlCubo(num) {
   // 0 ---> 0
   // Tu código:
 }
+
+var elevadoAlCubo = elevarAlCubo(3)
+console.log(elevadoAlCubo
+)
 
 module.exports = elevarAlCubo;

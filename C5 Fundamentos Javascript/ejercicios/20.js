@@ -1,4 +1,5 @@
 function resta(x, y) {
+  return (x-y);
   // La función recibe dos argumentos llamados "x" e "y" que son números.
   // Retorna el resultado de la resta de estos argumentos.
   // Por ejemplo: 
@@ -6,5 +7,7 @@ function resta(x, y) {
   // 5, 5 ---> 0
   // Tu código:
 }
+
+console.log(resta(8,10))
 
 module.exports = resta;

@@ -1,4 +1,5 @@
 function obtenerAreaRectangulo(alto, ancho) {
+  return alto * ancho;
   // La función recibe dos argumentos llamados "alto" y "ancho" los cuales son numeros.
   // Retornar el área de un rectángulo teniendo su alto y ancho.
   // Por ejemplo: 
@@ -6,5 +7,7 @@ function obtenerAreaRectangulo(alto, ancho) {
   // 0, 2 ---> 2
   // Tu código:
 }
+var area = obtenerAreaRectangulo(5,5)
+console.log(area)
 
 module.exports = obtenerAreaRectangulo;

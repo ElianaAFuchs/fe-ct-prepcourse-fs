@@ -1,4 +1,5 @@
 function obtenerResto(x, y) {
+  return (x % y);
   // La función recibe dos argumentos llamados "x" e "y" que son números.
   // Retorna el resultado del resto de la division de estos argumentos.
   // Por ejemplo: 
@@ -7,4 +8,5 @@ function obtenerResto(x, y) {
   // Tu código:
 }
 
+console.log(obtenerResto(10,5))
 module.exports = obtenerResto;
